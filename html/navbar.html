@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+        .box{
+            height: 100%;
+            width: 100%;
+        }
+        .navbar{
+            height: 4rem;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            background-color: rgb(41, 40, 40);
+            padding: 1rem;
+            justify-content: space-around;
+            align-items: center;
+        }
+        a{
+            text-transform: uppercase;
+            color: rgb(237, 231, 231);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(221, 162, 12);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <nav class="navbar">
+            <a href="">home</a>
+            <a href="">image</a>
+
+            <a href="">about</a>
+            <a href="">help</a>
+            <a href="">contect</a>
+
+        </nav>
+    </div>
+</body>
+</html>
